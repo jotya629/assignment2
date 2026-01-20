@@ -1,0 +1,325 @@
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.navbar{
+    width: 1200px;
+    height: 60px;
+    background-color: rgba(26, 11, 46, 1);
+    display: flex;
+    gap: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px 16px 200px;
+
+}
+.wave{
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* fallback */
+  color: rgba(0, 0, 0, 1);
+}
+.tech{
+    color: #000;
+}
+.menu{
+    color: #FFFFFF;
+    display: flex;
+    gap: 32px;
+}
+.btn{
+    border-radius: 100px;
+    color: #FFFFFF;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+padding: 2px 30px 2px 30px;
+
+}
+#header{
+    gap: 500px;
+}
+.banner{
+    width: 1600px;
+    height: 760px;
+    background-image:url(../assets/hero-bg.png) ;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 40;
+}
+  .circle{
+    background-image: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border:10000px;
+    width: 100px;
+    height: 100px;
+   
+    
+    
+border-right: 300px;
+border-left: 300px;
+width: 350px;
+height: 350px;
+}
+.microphone{
+    padding: 100px 150px 150px 120px;
+}
+.forthrow{
+    display: flex;
+    
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8px;
+padding: 12px 20px 12px 20px;
+}
+.spotify{
+    width: 150px;
+height: 19px;
+    border-radius: 100px;
+    color: #FFFFFF;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+/*padding: 2px 30px 2px 30px;*/
+    display: flex;
+    
+/*flex-direction: row;*/
+
+justify-content: flex-start;
+align-items: center;
+
+gap: 8px;
+padding: 10px 5px 12px 10px;
+}
+.subscribe{
+    color: green;
+    display: flex;
+    justify-content: center ;
+    width: 79px;
+height: 19px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 8px;
+padding: 12px 20px 12px 20px;
+border: 1px solid green;
+border-radius: 20px;
+}
+.about{
+    background-color: rgba(26, 11, 46, 1);
+    width: 1200px;
+height: 646px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 50px 200px 120px 200px;
+}
+.aboutheading{
+    
+    text-align: center;
+}
+.center{
+    text-align: center;
+    
+}
+.price{
+    list-style: none;
+    display: flex;
+   /* justify-content: space-between;*/
+    font-size: 48px;
+font-weight: 900;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+gap: 80px;
+}
+.pera{
+    font-size: 16px;
+}
+.why{
+    background-color: rgba(35, 14, 61, 1);
+    padding: 120px 300px 120px 300px;
+}
+.whyheading{
+    text-align: center;
+}
+.whycontainer{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+.box1{
+    background-color: rgba(53, 17, 101, 0.4);
+    grid-column: span 1;
+    grid-row: span 2;
+    border-radius: 20px;
+    padding: 20px;
+}
+.box2{
+    background-color: rgba(53, 17, 101, 0.4);
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.box3{
+    background-color:rgba(53, 17, 101, 0.4) ;
+    
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.box4{
+    background-color: rgba(53, 17, 101, 0.4);
+    grid-column: span 2;
+    grid-row: span 1;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.box5{
+    background-color: rgba(53, 17, 101, 0.4);
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.features{
+    
+    background-color: rgba(26, 11, 46, 1);
+    width: 1600px;
+   /* padding: 120px 300px 120px 300px;*/
+}
+.featuresheading{
+    text-align: center;
+}
+.featurescontainer{
+display: flex;
+    gap: 50px;
+    border-radius: 200px;
+    padding: 120px 300px 120px 200px;
+}
+.div1{
+    border-radius: 20px;
+    background-color: rgba(37, 13, 68, 1);
+}
+.div2{
+    border-radius: 20px;
+    background-color: rgba(37, 13, 68, 1);
+}
+.div3{
+    border-radius: 20px;
+    background-color: rgba(37, 13, 68, 1);
+}
+.clk{
+    display: flex;
+    flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 8px;
+padding: 12px 20px 12px 20px;
+}
+.hostheading{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+}
+.hostcontainer{
+    display: flex;
+    gap: 30px;
+    padding: 120px 300px 120px 200px;
+    background-color: rgba(53, 17, 101, 0.4);;
+}
+.hostinfo{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+     flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+
+padding: 12px 20px 12px 20px;
+}
+.logo1{
+    border: 2px solid salmon;
+    border-radius: 10000px;
+    padding: 7px;
+}
+.logo2{
+    border: 2px solid salmon;
+    border-radius: 10000px;
+    padding: 6px;
+}.logo3{
+    border: 2px solid salmon;
+    border-radius: 10000px;
+    padding: 6px;
+}.logo4{
+    border: 2px solid salmon;
+    border-radius: 10000px;
+    padding: 5px;
+}
+.footercontainer{
+     width: 1100px;
+        height: 646px;
+    background-image: url(../assets/footer-bg.png);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 5px;
+padding: 120px 300px 120px 250px;
+}
+.divbox{
+    display: flex;
+    padding: 12px 5px 5px 5px;
+    /*gap: 10px  ;*/
+}
+.divbox img{
+    padding: 12px 7px 12px 7px;
+}
+.sp{
+    display: flex;
+    padding: 12px 20px 12px 20px;
+}
+.apple{
+    display: flex;
+    padding: 12px 20px 12px 20px;
+}
+.youtube{
+    display: flex;
+    padding: 12px 20px 12px 20px;
+}
+.twitter{
+    display: flex;
+    padding: 12px 20px 12px 20px;
+}
